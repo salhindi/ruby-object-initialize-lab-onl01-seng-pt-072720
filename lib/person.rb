@@ -3,5 +3,15 @@ class Person
     @name= (person)
   end
   
-  def person= (person)
+  def name= (person)
    @name = person
+ end
+ 
+ def name
+   @name
+ end
+ end
+ 
+ beyonce = Person.new
+ beyonce.name = "Beyonce"
+ beyonce.name
